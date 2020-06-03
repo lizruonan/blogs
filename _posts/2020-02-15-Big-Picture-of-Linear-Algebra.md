@@ -1,11 +1,13 @@
 ---
-title: Orthogonal Complement of Column Space - the big picture of linear algebra
-
-tags: [Linear Algebra]
+layout: post
+title: Orthogonal Complement of Column Space - The Big Picture Of Linear Algebra
+date: 2020-02-15
+author: Elizabeth Zhao
+tags: [Mathematics, Linear Algebra]
+comments: true
+toc: true
 ---
 
-* #table of content
-{: toc}
 
 # Introduction
 
