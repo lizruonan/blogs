@@ -32,13 +32,13 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fav
 
 # 菜单中的按钮
 navigation:
-  - name: 首页
+  - name: Home
     url: /
-  - name: 关于
+  - name: About   
     url: /about
-  - name: 归档
+  - name: Archive
     url: /archive
-  - name: 标签
+  - name: Tags
     url: /tags
 
 # 每页的文章数
@@ -55,7 +55,7 @@ footer-links:
   email: elizaevit@gmail.com
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github: lizruonan/ruonan #https://github.com/<>
+  github: lizruonan #https://github.com/<>
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
@@ -73,7 +73,7 @@ footer-text: Copyright (c) 2019 来自中世界
 #
 
 # 输入Disqus shortname，即可添加评论区
-disqus: elizabethzhao #shortname
+disqus: ruonan #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
