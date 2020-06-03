@@ -77,10 +77,10 @@ disqus: ruonan #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
-  clientID: 
-  clientSecret: 
-  repo: 
-  owner: 
+  clientID: 7c190285c14b5c1f02b0
+  clientSecret: 4d3d85b427581e69b09e1bf9655db17829309aed
+  repo: ruonan.github.io
+  owner: lizruonan
 
 # 输入Google Analytics web tracking code
 google_analytics:
