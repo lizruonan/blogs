@@ -11,13 +11,12 @@ name: Ruonan
 description: Elizabeth's blogs
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: https://ruonan.github.io
+url: https://lizruonan.github.io
 
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
 # 那么就写成 "/repository-name"
-baseurl: /ruonan
-
+baseurl: /blogs
 
 #
 # 下面的设定都是可选的
@@ -79,7 +78,7 @@ disqus: #shortname
 gitalk:
   clientID: 7c190285c14b5c1f02b0
   clientSecret: 4d3d85b427581e69b09e1bf9655db17829309aed
-  repo: ruonan.github.io
+  repo: blogs
   owner: lizruonan
 
 # 输入Google Analytics web tracking code
