@@ -72,14 +72,14 @@ footer-text: Copyright (c) 2019 lizruonan
 #
 
 # 输入Disqus shortname，即可添加评论区
-disqus: #shortname
+disqus: ruonan #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
-  clientID: 7c190285c14b5c1f02b0
-  clientSecret: 4d3d85b427581e69b09e1bf9655db17829309aed
-  repo: blogs
-  owner: lizruonan
+  clientID: #7c190285c14b5c1f02b0
+  clientSecret: #4d3d85b427581e69b09e1bf9655db17829309aed
+  repo: #blogs
+  owner: #lizruonan
 
 # 输入Google Analytics web tracking code
 google_analytics:
