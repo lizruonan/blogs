@@ -79,7 +79,7 @@ We're done！$$\Box$$
 
 To Be Continued...
 
-# References:
+# References
 
 Margalit, D., Rabinoff, J. "Interactive Linear Algebra". Web. Chapter 6.2. <https://textbooks.math.gatech.edu/ila/orthogonal-complements.html> 
 
