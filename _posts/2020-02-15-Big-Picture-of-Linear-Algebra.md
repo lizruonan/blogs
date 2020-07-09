@@ -8,9 +8,6 @@ comments: true
 toc: true
 ---
 
-
-# Introduction
-
 I came across a theorem when struggling with one of the problems from my linear algebra written exam [link](https://math.nyu.edu/student_resources/wwiki/index.php?title=Linear_Algebra:_2011_September:_Problem_4 "problem link").  Besides from the determinant of block matrix, which I will talk later in another post, the theorem plays an essential role in the linked problem. Here is the theorem below: 
 
 
