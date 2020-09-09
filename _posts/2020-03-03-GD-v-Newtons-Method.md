@@ -9,8 +9,6 @@ comments: true
 toc: true
 ---
 
-* #table of content
-{: toc}
 
 # Introduction
 
@@ -54,7 +52,7 @@ x^*_G = \bar x - hf'(\bar x)
 $$
 Thus, this is the iterate of Gradient Method. 
 
-
+---
 
 Newton's Method is derived from Taylor Series Approximation of a twice differentiable function $$f$$. Let us approximate $f(x)$:
 $$
@@ -71,24 +69,31 @@ x_N^* = \bar x - \left[f''(\bar x)\right]^{-1}f'(\bar x)
 $$
 Therefore, we got the iterate of Newton's Method.
 
-<!-- Recall the inner product between $x$ and $y$, -->
+---
 
-<!--
+Recall the inner product between $x$ and $y$, 
 $$
 \left< x, y \right> = \sum_{i=1}^n x^{(i)}y^{(i)}, \quad \textrm{where} \quad x, y \in \mathbb{R}^n\\
 \left\Vert x \right\Vert = \sqrt{\left< x, x \right>}
 $$
-<!--The gradient by definiton is -->
+The gradient by definiton is 
 $$
 f(x+h) = f(x) + \left< f'(x), h \right> + o(\Vert h\Vert)
 $$
-<!--The coordinate representation of the gradient is-->
+<The coordinate representation of the gradient is
 $$
-f'(x) = \left(\frac{\part f(x)}{\part x^{(1)}}, \frac{\part f(x)}{\part x^{(2)}}, ..., \frac{\part f(x)}{\part x^{(n)}}\right)^T
+f'(x) = \left(\frac{\part f(x)}{\part x^{(1)}}, \frac{\part f(x)}{\part x^{(2)}}, ..., \frac{\part f(x)}{\part x^{(n)}}\right)^T.
 $$
-The figure below is an example of the convergence of the Gradient Method (black curve) and Newton's Method (blue curve. The function is $f(x)= (10x_1^2 + x_2^2)/2 + 5\log(1 + e^{-x_1-x_2})$. Each step of both methods has roughly the same length. However, Newton's Method converges much faster than Gradient Method by taking a different direction. 
 
-<img src="/Users/ruonanzhao/Desktop/Screen Shot 2020-09-09 at 4.48.43 PM.png" alt="Screen Shot 2020-09-09 at 4.48.43 PM" style="zoom:50%;" />
+---
+
+The figure below is an example of the convergence of the Gradient Method (black curve) and Newton's Method (blue curve. However, Newton's Method converges much faster than Gradient Method by taking a different direction. 
+
+<img src="https://i.loli.net/2020/09/10/3yn7vBqNaGzD8kU.png" alt="Screen Shot 2020-09-09 at 4.48.43 PM.png" style="zoom:50%;" />
+
+[^Figure]: Gradient Method and Newton's Method of the function $f(x)= (10x_1^2 + x_2^2)/2 + 5\log(1 + e^{-x_1-x_2})$
+
+---
 
 Moreover, Newton's Method converges by one step for a quadratic function.
 
@@ -115,7 +120,11 @@ At some $x \in \mathbb{R}^n$,
 $$
 x - d_N(x) = -A^{-1}a = x^*
 $$
-Therefore, we close the conclusion.
+Therefore, we can close the conclusion by above.
+
+## Difference 3: Operation Time
+
+At each step of iteration of Newton's Method, we want to compute the Hessian of a $n \times n$ matrix of f, this will cost $O(n^2)$ time to compute. The operation time of Gradient Method, however, is $O(n)$ time. 
 
 # Gradient Descent
 
@@ -151,9 +160,7 @@ We update the parameter by following the gradient of cost function.
 
 # References
 
-[Lecture Notes of CS229 - Learning Regression, Classification and Logistic Regression, Generalized Linear Models](https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf)
-
-[Lecture Notes of Convex Optimization 10-725: Newton's Method](http://www.stat.cmu.edu/~ryantibs/convexopt-S15/lectures/14-newton.pdf)
-
-Nesterov, Yurii. (2004). *Introductory Lectures on Convex Optimization, A Basic Course*.
+[1]: https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf)	"Lecture Notes of CS229 - Learning Regression, Classification and Logistic Regression, Generalized Linear Models"
+[2]: http://www.stat.cmu.edu/~ryantibs/convexopt-S15/lectures/14-newton.pdf	"Lecture Notes of Convex Optimization 10-725: Newton's Method"
+[3]: 	"Nesterov, Yurii. (2004). *Introductory Lectures on Convex Optimization, A Basic Course*."
 
