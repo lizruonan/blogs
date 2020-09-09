@@ -11,7 +11,7 @@ toc: true
 
 <!--abstract to make Jekyll stable-->
 
-As we all know, Gradient Descent method is an essential part in machine learning that is used to optimize the distance between predictions and true values. Newton's Method is one of the most well-known root-finding algorithms in numerical analysis. Though both methods involve computing the first order derivative, they are independent ideas and cannot be confused. Hence, I'd like to compare between Gradient Descent method and Newton's Method. :bowtie:    
+As we all know, Gradient Descent method is an essential part in machine learning that is used to optimize the distance between predictions and true values. Newton's Method is one of the most well-known root-finding algorithms in numerical analysis. Though both methods involve computing the first order derivative, they are independent ideas and cannot be confused. Hence, I'd like to compare between Gradient Descent method and Newton's Method.    
 
 # Difference 1: Rate of Convergence 
 
@@ -159,7 +159,7 @@ where $\alpha$ is the learning rate.
 
 We update the parameter by following the gradient of cost function.
 
-# References :books:
+# References
 
 [1]: https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf)	"Lecture Notes of CS229 - Learning Regression, Classification and Logistic Regression, Generalized Linear Models"
 [2]: http://www.stat.cmu.edu/~ryantibs/convexopt-S15/lectures/14-newton.pdf	"Lecture Notes of Convex Optimization 10-725: Newton's Method"
