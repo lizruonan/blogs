@@ -9,6 +9,7 @@ comments: true
 toc: true
 ---
 
+<!--abstract to make Jekyll stable-->
 
 # Introduction :thought_balloon:
 
@@ -80,7 +81,9 @@ The gradient by definiton is
 $$
 f(x+h) = f(x) + \left< f'(x), h \right> + o(\Vert h\Vert)
 $$
-<The coordinate representation of the gradient is
+
+
+The coordinate representation of the gradient is
 $$
 f'(x) = \left(\frac{\part f(x)}{\part x^{(1)}}, \frac{\part f(x)}{\part x^{(2)}}, ..., \frac{\part f(x)}{\part x^{(n)}}\right)^T.
 $$
