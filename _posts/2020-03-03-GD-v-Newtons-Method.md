@@ -11,11 +11,9 @@ toc: true
 
 <!--abstract to make Jekyll stable-->
 
-# Introduction :thought_balloon:
-
 As we all know, Gradient Descent method is an essential part in machine learning that is used to optimize the distance between predictions and true values. Newton's Method is one of the most well-known root-finding algorithms in numerical analysis. Though both methods involve computing the first order derivative, they are independent ideas and cannot be confused. Hence, I'd like to compare between Gradient Descent method and Newton's Method. :bowtie:    
 
-# Difference 1: Rate of Convergence :cyclone:
+# Difference 1: Rate of Convergence 
 
 Suppose we are given a function $f\in C_{L}^{2,2}(\mathbb{R}^n)$, and we want to find the local minimum 
 $$
@@ -35,7 +33,7 @@ x_{k+1} = x_k - [f''(x_k)]^{-1}f'(x_k)
 $$
 We can immediately observe that the rate convergence of gradient method is linear, while the Newton's method is quadratic. 
 
-# Difference 2: Directions :point_right:
+# Difference 2: Directions
 
 The direction of updating step of Gradient Method follows along the direction of the gradient, while Newton's Method follows along the inverse of second order derivative (or Hessian for a linear system). We'll see from the derivations below. 
 
@@ -125,9 +123,9 @@ x - d_N(x) = -A^{-1}a = x^*
 $$
 Therefore, we can close the conclusion by above.
 
-# Difference 3: Operation Time :clock9:
+# Difference 3: Operation Time 
 
-At each step of iteration of Newton's Method, we want to compute the Hessian of a $n \times n$ matrix of f, this will cost $O(n^2)$ time to compute. The operation time of Gradient Method, however, is $O(n)$ time. 
+At each step of iteration of Newton's Method, we want to compute the Hessian of a $n \times n$ matrix of $f$, this will cost $O(n^2)$ time to compute. The operation time of Gradient Method, however, is $O(n)$ time. 
 
 # Gradient Descent
 
