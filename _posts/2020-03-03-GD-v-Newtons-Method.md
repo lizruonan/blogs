@@ -122,7 +122,7 @@ x - d_N(x) = -A^{-1}a = x^*
 $$
 Therefore, we can close the conclusion by above.
 
-## Difference 3: Operation Time
+# Difference 3: Operation Time
 
 At each step of iteration of Newton's Method, we want to compute the Hessian of a $n \times n$ matrix of f, this will cost $O(n^2)$ time to compute. The operation time of Gradient Method, however, is $O(n)$ time. 
 
