@@ -66,7 +66,7 @@ Thus, this is the iterate of Gradient Method.
 
 ---
 
-Newton's Method is derived from Taylor Series Approximation of a twice differentiable function $$f$$. Let us approximate $f(x)$:
+Newton's Method is derived from Taylor Series Approximation of a twice differentiable function $f$. Let us approximate $f(x)$:
 $$
 \begin{align*}
 	\phi_N(x) &= f(\bar{x}) + \left<	\nabla f(\bar{x}), x-\bar{x}\right> + \frac{1}{2}\left<	\nabla^2 f(\bar{x})(x-\bar{x}), x-\bar{x}\right>\\
@@ -106,7 +106,7 @@ $$
 \end{equation*}
 $$
 
-> The root gradient comes from the Latin word gradi, meaning “to walk”. In this sense, the gradient of a surface is the rate at which it “walks uphill” [3].
+> The root gradient comes from the Latin word gradi, meaning “to walk”. In this sense, the gradient of a surface is the rate at which it “walks uphill” [[3]] [3].
 
 ---
 
