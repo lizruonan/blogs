@@ -20,8 +20,11 @@ In other words, the column space contains every vector that is orthogonal to lef
 
 Equivalently, 
 
-$Nul(A)^{\perp} = Col(A^T)$
-
+$$
+\begin{equation*}
+Nul(A)^{\perp} = Col(A^T)
+\end{equation*}
+$$
 I.e., the row space contains every vector that is orthogonal to the nullspace (in $\mathbb{R}^n$). 
 
 Before we see the mathematical proof of the theorem, we shall think about the theorem in an intuitive sense:
@@ -30,7 +33,13 @@ $Ax = b$ then $b$ is in the column space, which then implies b is perpendicular 
 The above theorem also leads us to the following fundamental theorem:
 
 ## Rank-Nullity Theorem:
-$dim(Col(A)) + dim(Nul(A)) = n$
+$$
+\begin{equation*}
+dim(Col(A)) + dim(Nul(A)) = n
+\end{equation*}
+$$
+
+
 
 ![big_pic_LA.png](https://i.loli.net/2020/02/17/dIbniEk6NwHVf7h.png) "Strang, G. "Linear Algebra And Its Applications 4th Ed". Chapter 3.1. New York, Academic Press. 2006."
 
