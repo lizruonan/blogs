@@ -68,15 +68,10 @@ Thus, this is the iterate of Gradient Method.
 
 Newton's Method is derived from Taylor Series Approximation of a twice differentiable function $$f$$. Let us approximate $f(x)$:
 $$
-\begin{equation*}
-\end{equation*}
-\phi_N(x) = f(\bar{x}) + \left<	\nabla f(\bar{x}), x-\bar{x}\right> + \frac{1}{2}\left<	\nabla^2 f(\bar{x})(x-\bar{x}), x-\bar{x}\right>
-$$
-
-$$
-\begin{equation*}
-\end{equation*}
-\implies \phi_N'(x_N^*) = \nabla f(\bar x) +  \nabla f(\bar x)(x_N^*-\bar x) = 0
+\begin{align*}
+	\phi_N(x) &= f(\bar{x}) + \left<	\nabla f(\bar{x}), x-\bar{x}\right> + \frac{1}{2}\left<	\nabla^2 f(\bar{x})(x-\bar{x}), x-\bar{x}\right>\\
+	\implies \phi_N'(x_N^*) &= \nabla f(\bar x) +  \nabla f(\bar x)(x_N^*-\bar x) = 0
+\end{align*}
 $$
 
 The minimum of the function is
