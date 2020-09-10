@@ -107,7 +107,7 @@ $$
 The coordinate representation of the gradient is
 $$
 \begin{equation*}
-\nabla f(x) = \left(\frac{\part f(x)}{\part x^{(1)}}, \frac{\part f(x)}{\part x^{(2)}}, ..., \frac{\part f(x)}{\part x^{(n)}}\right)^T.
+\nabla f(x) = \left(\frac{\partial f(x)}{\partial x^{(1)}}, \frac{\partial f(x)}{\partial x^{(2)}}, ..., \frac{\partial f(x)}{\partial x^{(n)}}\right)^T.
 \end{equation*}
 $$
 
