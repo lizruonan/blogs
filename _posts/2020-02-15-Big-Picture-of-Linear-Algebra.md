@@ -12,25 +12,25 @@ I came across a theorem when struggling with one of the problems from my linear 
 
 
 # Fundamental Theorem of Orthogonality:
-Let $$A$$ be a $$m \times n$$ matrix. Then, 
+Let $A$ be a $m \times n$ matrix. Then, 
 
-$$Nul(A^T) = Col(A)^{\perp}$$
+$Nul(A^T) = Col(A)^{\perp}$
 
-In other words, the column space contains every vector that is orthogonal to left nullspace (in $$\mathbb{R}^m$$);
+In other words, the column space contains every vector that is orthogonal to left nullspace (in $\mathbb{R}^m$);
 
 Equivalently, 
 
-$$Nul(A)^{\perp} = Col(A^T)$$
+$Nul(A)^{\perp} = Col(A^T)$
 
-I.e., the row space contains every vector that is orthogonal to the nullspace (in $$\mathbb{R}^n$$). 
+I.e., the row space contains every vector that is orthogonal to the nullspace (in $\mathbb{R}^n$). 
 
 Before we see the mathematical proof of the theorem, we shall think about the theorem in an intuitive sense:
-$$Ax = b$$ then $$b$$ is in the column space, which then implies b is perpendicular to the left nullspace. 
+$Ax = b$ then $b$ is in the column space, which then implies b is perpendicular to the left nullspace. 
 
 The above theorem also leads us to the following fundamental theorem:
 
 ## Rank-Nullity Theorem:
-$$dim(Col(A)) + dim(Nul(A)) = n$$
+$dim(Col(A)) + dim(Nul(A)) = n$
 
 ![big_pic_LA.png](https://i.loli.net/2020/02/17/dIbniEk6NwHVf7h.png) "Strang, G. "Linear Algebra And Its Applications 4th Ed". Chapter 3.1. New York, Academic Press. 2006."
 
@@ -50,29 +50,38 @@ Now, let us see the proof (it is very straightforward, and you can do on your ow
 
 # Proof of the theorem
 
-$$(\subseteq)$$ let $$x\in Col(A)$$, then $$x = a_1v_1+a_2v_2+...+a_nv_n, $$ where $$a_1, a_2, ..., a_n$$ are columns of $$A$$, and $$v_1, v_2,..., v_n$$ are the entries of some vector $$v$$.  
+$(\subseteq)$ let $x\in Col(A)$, then $x = a_1v_1+a_2v_2+...+a_nv_n, $ where $a_1, a_2, ..., a_n$ are columns of $A$, and $v_1, v_2,..., v_n$ are the entries of some vector $v$.  
 
-WTS:  $$x\perp w$$,  where $$w\in Nul(A^T)$$. 
+WTS:  $x\perp w$,  where $w\in Nul(A^T)$. 
 
 $$
-x\cdot w = x^T w \\
-= (a_1v_1+...+a_nv_n)^T w\\
-=(a_1v_1)^T w+...+(a_nv_n)^T w \\
-= v_1(a_1^Tw) +...+v_n(a_n^Tw)\\
-= v_1(0)+...+v_n(0)\\
-= 0 \\
+\begin{align*}
+x\cdot w &= x^T w \\
+&= (a_1v_1+...+a_nv_n)^T w\\
+&=(a_1v_1)^T w+...+(a_nv_n)^T w \\
+&= v_1(a_1^Tw) +...+v_n(a_n^Tw)\\
+&= v_1(0)+...+v_n(0)\\
+&= 0 \\
+\end{align*}
 $$
 
-$$\implies x \perp w, \forall w \in Nul(A^T)$$
-$$\implies x\in Nul(A^T)^{\perp}$$
+$$
+\begin{align*}
+ \implies & x \perp w, \forall w \in Nul(A^T) \\
+ \implies & x\in Nul(A^T)^{\perp}
+\end{align*}
+$$
 
-$$(\supseteq)$$ let $$w\in Nul(A^T)$$. Then
+$(\supseteq)$ let $w\in Nul(A^T)$. Then
 
-$$a_j^Tw = a_j\cdot w = 0, \forall j = 1,2,...,n$$.
+$$
+\begin{equation*}
+a_j^Tw = a_j\cdot w = 0, \forall j = 1,2,...,n
+\end{equation*}
+$$
+By the definition of orthogonal complement, $w \in Col(A)^{\perp}$. 
 
-By the definition of orthogonal complement, $$w \in Col(A)^{\perp}$$. 
-
-We're done！$$\Box$$
+We're done！$\Box$
 
 To Be Continued...
 
