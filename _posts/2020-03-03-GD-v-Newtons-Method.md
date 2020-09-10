@@ -29,18 +29,26 @@ $$
 # Difference 1: Rate of Convergence 
 
 Suppose we are given a function $f$ is convex, twice differntiable in $\mathbb{R}^n$, and we want to find the local minimum 
+
+$\min_{x\in \mathbb{R}^n} f(x).$
 $$
 \min_{x\in \mathbb{R}^n} f(x).
 $$
 
-
 The Gradient Method:
+
+$x_{k+1} = x_k - h_k f'(x_k),\quad h_k > 0$
 $$
 x_{k+1} = x_k - h_k f'(x_k),\quad h_k > 0
 $$
 
-
 Newton's Method:
+
+
+
+$x_{k+1} = x_k - [f''(x_k)]^{-1}f'(x_k)$
+
+
 $$
 x_{k+1} = x_k - [f''(x_k)]^{-1}f'(x_k)
 $$
@@ -53,6 +61,8 @@ We can immediately observe that the rate convergence of gradient method is linea
 The direction of updating step of Gradient Method follows along the direction of the gradient, while Newton's Method follows along the inverse of second order derivative (or Hessian for a linear system). We'll see from the derivations below. 
 
 Let us approximate $f(x)$ with the following:
+
+$\phi_G(x) = f(\bar x) + \left<	\nabla f(\bar{x}), x-\bar{x}\right> + \frac{1}{2h}\left\Vert x-\bar x \right\Vert^2,$
 $$
 \phi_G(x) = f(\bar x) + \left<	\nabla f(\bar{x}), x-\bar{x}\right> + \frac{1}{2h}\left\Vert x-\bar x \right\Vert^2,
 $$
