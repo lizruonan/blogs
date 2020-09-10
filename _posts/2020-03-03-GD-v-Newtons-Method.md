@@ -5,7 +5,7 @@ layout: post
 title: Who Is The Winner? Gradient Descent v.s. Newton's Method
 date: 03 Mar 2020
 author: Elizabeth Zhao
-tags: [Machine Learning, Mathematics, Numerical Analysis, Linear Algebra, Convex Optimization]
+tags: [Machine Learning, Mathematics, Numerical Analysis, Convex Optimization]
 comments: true
 toc: true
 ---
