@@ -14,6 +14,18 @@ toc: true
 
 As we all know, Gradient Descent method is an essential part in machine learning that is used to optimize the distance between predictions and true values. Newton's Method is one of the most well-known root-finding algorithms in numerical analysis. Though both methods involve computing the first order derivative, they are independent ideas and cannot be confused. What are the differences between Gradient Descent and Newton's Method? When to use which of them?
 
+Block math test 
+$$
+\begin{align*}
+y = y(x,t) &= A e^{i\theta} \\
+&= A (\cos \theta + i \sin \theta) \\
+&= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
+&= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
+&= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
+&= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
+\end{align*}
+$$
+
 # Difference 1: Rate of Convergence 
 
 Suppose we are given a function $f$ is convex, twice differntiable in $\mathbb{R}^n$, and we want to find the local minimum 
@@ -97,7 +109,7 @@ The figure below is an example of the convergence of the Gradient Method (black 
 
 <img src="https://i.loli.net/2020/09/10/3yn7vBqNaGzD8kU.png" alt="Screen Shot 2020-09-09 at 4.48.43 PM.png" style="zoom:50%;" />
 
-The figure above uses the function $f(x)= (10x_1^2 + x_2^2)/2 + 5\log(1 + e^{-x_1-x_2})$ [[2]](#References).
+The figure above uses the function $f(x)= (10x_1^2 + x_2^2)/2 + 5\log(1 + e^{-x_1-x_2})$ [[2]] [2].
 
 # Difference 3: Operation Time 
 
