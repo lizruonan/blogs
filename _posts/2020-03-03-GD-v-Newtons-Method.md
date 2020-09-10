@@ -14,43 +14,29 @@ toc: true
 
 As we all know, Gradient Descent method is an essential part in machine learning that is used to optimize the distance between predictions and true values. Newton's Method is one of the most well-known root-finding algorithms in numerical analysis. Though both methods involve computing the first order derivative, they are independent ideas and cannot be confused. What are the differences between Gradient Descent and Newton's Method? When to use which of them?
 
-Block math test 
-$$
-\begin{align*}
-y = y(x,t) &= A e^{i\theta} \\
-&= A (\cos \theta + i \sin \theta) \\
-&= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
-&= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
-&= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
-&= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
-\end{align*}
-$$
-
 # Difference 1: Rate of Convergence 
 
 Suppose we are given a function $f$ is convex, twice differntiable in $\mathbb{R}^n$, and we want to find the local minimum 
-
-$\min_{x\in \mathbb{R}^n} f(x).$
 $$
+\begin{equation*}
 \min_{x\in \mathbb{R}^n} f(x).
+\end{equation*}
 $$
 
 The Gradient Method:
-
-$x_{k+1} = x_k - h_k f'(x_k),\quad h_k > 0$
 $$
+\begin{equation*}
 x_{k+1} = x_k - h_k f'(x_k),\quad h_k > 0
+\end{equation*}
 $$
 
 Newton's Method:
 
 
-
-$x_{k+1} = x_k - [f''(x_k)]^{-1}f'(x_k)$
-
-
 $$
+\begin{equation*}
 x_{k+1} = x_k - [f''(x_k)]^{-1}f'(x_k)
+\end{equation*}
 $$
 Where $k = 0, 1, 2, 3,...$
 
@@ -61,10 +47,10 @@ We can immediately observe that the rate convergence of gradient method is linea
 The direction of updating step of Gradient Method follows along the direction of the gradient, while Newton's Method follows along the inverse of second order derivative (or Hessian for a linear system). We'll see from the derivations below. 
 
 Let us approximate $f(x)$ with the following:
-
-$\phi_G(x) = f(\bar x) + \left<	\nabla f(\bar{x}), x-\bar{x}\right> + \frac{1}{2h}\left\Vert x-\bar x \right\Vert^2,$
 $$
+\begin{equation*}
 \phi_G(x) = f(\bar x) + \left<	\nabla f(\bar{x}), x-\bar{x}\right> + \frac{1}{2h}\left\Vert x-\bar x \right\Vert^2,
+\end{equation*}
 $$
 where $h >0$. 
 $$
@@ -72,7 +58,9 @@ $$
 $$
 Then, the minimum of the function is
 $$
+\begin{equation*}
 x^*_G = \bar x - h \nabla f(\bar x)
+\end{equation*}
 $$
 Thus, this is the iterate of Gradient Method. 
 
@@ -80,16 +68,22 @@ Thus, this is the iterate of Gradient Method.
 
 Newton's Method is derived from Taylor Series Approximation of a twice differentiable function $$f$$. Let us approximate $f(x)$:
 $$
+\begin{equation*}
+\end{equation*}
 \phi_N(x) = f(\bar{x}) + \left<	\nabla f(\bar{x}), x-\bar{x}\right> + \frac{1}{2}\left<	\nabla^2 f(\bar{x})(x-\bar{x}), x-\bar{x}\right>
 $$
 
 $$
+\begin{equation*}
+\end{equation*}
 \implies \phi_N'(x_N^*) = \nabla f(\bar x) +  \nabla f(\bar x)(x_N^*-\bar x) = 0
 $$
 
 The minimum of the function is
 $$
+\begin{equation*}
 x_N^* = \bar x - \left[	\nabla^2f(\bar x)\right]^{-1} \nabla f(\bar x)
+\end{equation*}
 $$
 Therefore, we got the iterate of Newton's Method.
 
@@ -97,18 +91,24 @@ Therefore, we got the iterate of Newton's Method.
 
 Recall the inner product between $x$ and $y$, 
 $$
-\left< x, y \right> = \sum_{i=1}^n x^{(i)}y^{(i)}, \quad \textrm{where} \quad x, y \in \mathbb{R}^n\\
-\left\Vert x \right\Vert = \sqrt{\left< x, x \right>}
+\begin{align*}
+\left< x, y \right> &= \sum_{i=1}^n x^{(i)}y^{(i)}, \quad \textrm{where} \quad x, y \in \mathbb{R}^n\\
+\left\Vert x \right\Vert &= \sqrt{\left< x, x \right>}
+\end{align*}
 $$
 The gradient by definiton is 
 $$
+\begin{equation*}
 f(x+h) = f(x) + \left< \nabla f(x), h \right> + o(\Vert h\Vert)
+\end{equation*}
 $$
 
 
 The coordinate representation of the gradient is
 $$
+\begin{equation*}
 \nabla f(x) = \left(\frac{\part f(x)}{\part x^{(1)}}, \frac{\part f(x)}{\part x^{(2)}}, ..., \frac{\part f(x)}{\part x^{(n)}}\right)^T.
+\end{equation*}
 $$
 
 > The root gradient comes from the Latin word gradi, meaning “to walk”. In this sense, the gradient of a surface is the rate at which it “walks uphill” [3].
@@ -129,26 +129,36 @@ Moreover, Newton's Method converges by one step for a quadratic function.
 
 Consider a quadratic function
 $$
+\begin{equation*}
 f(x) = \alpha + \left<a, x\right> + \frac{1}{2}\left<Ax, x\right>
+\end{equation*}
 $$
 where $A$ is a symmetric positive definite $n \times n$ matrix.
 
 So
 $$
-\nabla f(x) = a + Ax\\
-	\nabla^2 f(x) = A
+\begin{align*}
+	\nabla f(x) &= a + Ax\\
+	\nabla^2 f(x) &= A
+\end{align*}
 $$
 Then, the minimum of the function is 
 $$
-x^* =-A^{-1}a
+\begin{equation*}
+	x^* =-A^{-1}a
+\end{equation*}
 $$
 We can then see that the direction of Newton's Method at some $x \in \mathbb{R}^n$ is
 $$
+\begin{equation*}
 d_N(x)= \left[	\nabla^2 f(x)\right]^{-1}	\nabla f(x)= A^{-1}(a+ Ax) = x + A^{-1}a
+\end{equation*}
 $$
 At some $x \in \mathbb{R}^n$, 
 $$
+\begin{equation*}
 x - d_N(x) = -A^{-1}a = x^*
+\end{equation*}
 $$
 Therefore, we can close the conclusion by above.
 
@@ -160,7 +170,9 @@ The scheme of batch GD  is to compute the loss for every element in a dataset, t
 
 Given the lost function
 $$
+\begin{equation*}
 J(\theta) = \frac{1}{2}\sum_{i=1}^m\left(h_{\theta}(x)^{(i)} - y^{(i)}\right)^2
+\end{equation*}
 $$
 
 
@@ -171,7 +183,7 @@ We want to choose $\theta$ that minimizes $$J(\theta)$$.
 
 We pick an initial value of $\theta$,
 
-repeat until convergence: {
+repeat until convergence: $\bigg \{ $ 
 
 
 $$
@@ -180,14 +192,16 @@ $$
 $$
 
 
-}
+$\bigg \}$
 
 where $\alpha$ is the learning rate.
 
 # References
 
-[1]: https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf)	"Lecture Notes of CS229 - Learning Regression, Classification and Logistic Regression, Generalized Linear Models"
+[1]: https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf/	"Lecture Notes of CS229 - Learning Regression, Classification and Logistic Regression, Generalized Linear Models"
 [2]: http://www.stat.cmu.edu/~ryantibs/convexopt-S15/lectures/14-newton.pdf	"Lecture Notes of Convex Optimization 10-725: Newton's Method"
-[3]: 	"Burden, R. L., &amp; Faires, J. D. (2011). *numerical analysis*."
-[4]: 	"Nesterov, Yurii. (2004). *Introductory Lectures on Convex Optimization, A Basic Course*."
+[3]: "Burden, R. L., &amp; Faires, J. D. (2011). *numerical analysis*."
+[4]: "Nesterov, Yurii. (2004). *Introductory Lectures on Convex Optimization, A Basic Course*."
+
+[1]: https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf
 
