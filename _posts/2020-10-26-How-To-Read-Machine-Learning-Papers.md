@@ -66,51 +66,64 @@ A few months ago, I began teaching myself machine learning. While I was feeling 
 - Download the open source code
 - Reimplement algorithms from scratch
 
-
-
 > Steady reading, do not burst, long-term learning, learn a bit every day
 
-# Goal: Do Important Work
+---
+
+# Career Advice
+
+## Goal: (Do Important Work)
 
 - Job (big company or start up)
 - PhD
 
+Two Steps: 
+
 1. How to get a position
 2. Set up a position
 
-**Recruiters are looking for:**
+(Job Senario) Recruiters are looking for:
 
-- Skills (ML quiz, coding)
-- Meaningful work (not just know the theory, but can show how to use it
+- Skills
+  - ML quizzes
+  - coding ability
+- Meaningful work 
+  - Not just know the theory, but can show how to use it
 
-**Area:** wide and in depth (in a specific area) 
+## Area: 
+
+Wide knowledge and deep understanding (in at least one area) 
 
 <img src="https://user-images.githubusercontent.com/56653390/97247345-e0af7480-17d5-11eb-9ef6-3ef0035eca15.png" alt="Screen Shot 2020-09-09 at 4.48.43 PM.png" style="zoom:50%;" />
 
-Pick one of these area to work on a project: NN, BN, CNN, RNN
+What to do:
 
-Know how to make it work
+- Pick one of these area to work on a project: NN, BN, CNN, RNN
 
+- Know how to make it work
 
+**Bad** way to navigate career: 
 
-**Bad** way to navigate career: taking tons of courses but not go into depth or go into only one deep without many experience
+- Take tons of courses but not go into depth or go into only one deeply (jump into research papers) without many experience -- not very productive until **take classes** and **master basics** to understand advanced projects.
+- Do many (easy) projects in different areas -- **volume of projects is not important**, 10 lame projects is not better than 1 great project. Recruters are trying to understand how good you are through the projects. 
 
-**volume of projects is not important, 10 lame projects is not better than 1 great project**
+## Building Foundation Skills: 
 
 <img src="https://user-images.githubusercontent.com/56653390/97247414-02a8f700-17d6-11eb-8617-eba84e0f8252.png" alt="Screen Shot 2020-09-09 at 4.48.43 PM.png" style="zoom:50%;" />
 
- **Saturday morning problem:**
+## Saturday morning problem:
 
-- Read paper
+- Read paper (do not work too hard, do this consistantly)
+  - Read 1 paper a week --> 50 paper a year
 - Work on projects
 - Open source
 - TV
 
-*Read 1 paper a week --> 50 paper a year*
+---
 
-# Selecting A Job
+## Selecting A Job
 
-- working with great people and projects, they will influence you
+- Working with great people and projects, they will influence you
 - Focus on the team (10-30 people) you’ll work with
 - Manager
 - Do <u>not</u> focus on “brand”
