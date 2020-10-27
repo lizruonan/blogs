@@ -63,7 +63,6 @@ footer-links:
   tumblr: # https://<username>.tumblr.com
   twitter: # https://www.twitter.com/<your_twitter_username>
   youtube: # channel/<your_long_string> or user/<user-name>
-
 # 站点页脚的文字
 footer-text: Copyright (c) 2019 lizruonan
 
