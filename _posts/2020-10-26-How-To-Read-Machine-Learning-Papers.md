@@ -14,28 +14,30 @@ toc: true
 
 A few months ago, I began teaching myself machine learning. While I was feeling confused and didn't know how to start, I happened to see a Youtube recommended video about [a lecture of ML career advice](https://www.youtube.com/watch?v=733m6qBH-jI&t=2497s) by Andrew Ng (great job again, Youtube!). As a beginner, I found Andrew's advice very helpful. Whenever I feel a bit lost on my journey of studying ML, I would come back and read my lecture notes. I can get new inspirations every time! Therefore, I moved my notes from my personal notebook to here. If you happened to see this blog, I hope you're benefiting from it as well. 
 
-**Multiple passes:**
+# How To Read ML Papers:
+
+## Multiple Passes:
 
 1. Title/abstract: big picture
 2. Intro + conclusions +figures + skim rest (skip related work)
 3. Read but skip/skim math (or read it later)
 4. Whole thing, but skip parts that don’t make sense
 
-**Questions to ask yourself:**
+## Questions to Ask Yourself:
 
 - what did authors try to accomplish?
 - What were the key elements of the approach?
 - What can you use yourself?
 - What other references do you want to follow?
 
-**Sources of papers:**
+## Sources of Papers:
 
 - Twitter
 - [ML subreddit](https://www.reddit.com/r/MachineLearning/)
 - [NeurIPS](https://nips.cc/)/[ICML](https://icml.cc/), [ICLR](https://iclr.cc/)
 - Friends
 
-**Nice Conferences In AI: **
+## Nice Conferences in AI: 
 
 - [ICML](https://icml.cc/)
 
@@ -55,11 +57,11 @@ A few months ago, I began teaching myself machine learning. While I was feeling 
 
 - [ECML](https://ecmlpkdd2020.net/)
 
-**Math**
+## Math
 
 - Read though it, re-derive from scratch
 
-**Code**
+## Code
 
 - Download the open source code
 - Reimplement algorithms from scratch
@@ -68,9 +70,7 @@ A few months ago, I began teaching myself machine learning. While I was feeling 
 
 > Steady reading, do not burst, long-term learning, learn a bit every day
 
-
-
-**Goal: Do important work**
+# Goal: Do Important Work
 
 - Job (big company or start up)
 - PhD
@@ -108,12 +108,12 @@ Know how to make it work
 
 *Read 1 paper a week --> 50 paper a year*
 
-**Selecting a job**
+# Selecting A Job
 
 - working with great people and projects, they will influence you
 - Focus on the team (10-30 people) you’ll work with
 - Manager
-- *Not* on “brand”
+- Do <u>not</u> focus on “brand”
 
 **Ideal**: Giant company with 50000 employees, a 300 people AI team or 30 people team is a great offer, because you know what exactly you’ll do and talk to manager, rather than being assigned to a boring job.
 
