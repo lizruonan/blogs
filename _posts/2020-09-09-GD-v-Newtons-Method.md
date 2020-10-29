@@ -264,5 +264,6 @@ where $\alpha$ is the learning rate.
 (2): [Lecture Notes of Convex Optimization 10-725: Newton's Method](http://www.stat.cmu.edu/~ryantibs/convexopt-S15/lectures/14-newton.pdf )
 
 (3): "Burden, R. L., &amp; Faires, J. D. (2011). *numerical analysis*."
+
 (4): "Nesterov, Yurii. (2004). *Introductory Lectures on Convex Optimization, A Basic Course*."
 
