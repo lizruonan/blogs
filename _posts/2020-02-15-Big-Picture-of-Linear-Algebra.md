@@ -97,6 +97,8 @@ $$
 
 
 $(\supseteq)$ let $w\in Nul(A^T)$. Then
+
+
 $$
 \begin{equation*}
 a_j^Tw = a_j\cdot w = 0, \forall j = 1,2,...,n
@@ -111,12 +113,16 @@ By the definition of orthogonal complement, $w \in Col(A)^{\perp}$. $\Box$
 WTS: $Nul(A)^{\perp} = Col(A^T)$ or $Nul(A) \perp Col(A^T)$:
 
 Let $x$ be a vector in nullspace where $Ax = 0$. Let $v$ be a vector in row space. Then, 
+
+
 $$
 v = A^T y, \quad \textrm{for some vector $y$ in column space}
 $$
 
 
 And then, we would have
+
+
 $$
 v^Tx = (A^Ty)^Tx = y^TAx = y^T0 = 0
 $$
