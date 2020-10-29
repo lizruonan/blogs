@@ -21,6 +21,8 @@ Let $A$ be a $m \times n$ matrix. Then,
 $$
 Nul(A^T) = Col(A)^{\perp}
 $$
+
+
 In other words, the column space $Col(A)$ contains every vector that is orthogonal to left nullspace $Nul(A^T)$ (in $\mathbb{R}^m$). (*Why is column space in $\mathbb{R}^m$? Because every column of $A$ contains $m$ elements.*)
 
 Equivalently, 
