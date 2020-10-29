@@ -32,6 +32,8 @@ $$
 Nul(A)^{\perp} = Col(A^T)
 \end{equation*}
 $$
+
+
 I.e., the row space $Col(A^T)$ contains every vector that is orthogonal to the nullspace $Nul(A)$ (in $\mathbb{R}^n$). (*Again, why are row space and null space in $\mathbb{R}^n$? Because every row of $A$ contains $n$ vectors and so does vecor in null space $x$, where $Ax = 0.$*)
 
 Before we see the mathematical proof of the theorem, we shall think about the theorem in an intuitive sense:
@@ -45,6 +47,8 @@ $$
 dim(Col(A)) + dim(Nul(A)) = n
 \end{equation*}
 $$
+
+
 
 
 
@@ -90,13 +94,16 @@ $$
 \end{align*}
 $$
 
-$(\supseteq)$ let $w\in Nul(A^T)$. Then
 
+
+$(\supseteq)$ let $w\in Nul(A^T)$. Then
 $$
 \begin{equation*}
 a_j^Tw = a_j\cdot w = 0, \forall j = 1,2,...,n
 \end{equation*}
 $$
+
+
 By the definition of orthogonal complement, $w \in Col(A)^{\perp}$. $\Box$
 
 ---
@@ -107,10 +114,14 @@ Let $x$ be a vector in nullspace where $Ax = 0$. Let $v$ be a vector in row spac
 $$
 v = A^T y, \quad \textrm{for some vector $y$ in column space}
 $$
+
+
 And then, we would have
 $$
 v^Tx = (A^Ty)^Tx = y^TAx = y^T0 = 0
 $$
+
+
 Thus, $v^T \in Nul(A)$. Therefore, $Nul(A) \perp Col(A^T)$. $\Box$
 
 # References
