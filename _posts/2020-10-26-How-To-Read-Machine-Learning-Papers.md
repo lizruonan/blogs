@@ -56,6 +56,7 @@ A few months ago, I began teaching myself machine learning. While I was feeling 
 - [AISTATS](http://aistats.org/)
 
 - [ECML](https://ecmlpkdd2020.net/)
+- [ACM on RecSys](https://recsys.acm.org/)
 
 **Math**
 
