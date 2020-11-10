@@ -1,11 +1,11 @@
+---
 layout: post
-title: How Does Youtube Recommendation Work
-date: Oct 28 2020
+title: How Does Youtube Recommendations Work
+date: Nov 10 2020
 author: Elizabeth Zhao
 tags: [Machine Learning, Recommender Systems]
 comments: true
 toc: true
-
 ---
 
 # Introduction:
@@ -24,9 +24,10 @@ I have to confess that I spend a lot of time on Youtube everyday. Browsing throu
 
 The architecture of Youtube recommendtaions was presented in the work by *Covington et al* [1]. According to Convington, there are three major challenges of Youtube recommendtiaons: 
 
-	- scale --> Youtube has massive user base and contents, but the older recommendations fail to work on such scale
-	- freshness --> Many videos are uploaded per second on Youtube. To keep users updated by the latest videos, they want to balance the new content with "well-established videos".
-	- noise --> Past user behaviors are hard to predict because of sparsity. Thus, Youtube modeled "noisy implicit feedback signals"(*) to deal with the noise issue. 
+- scale: Youtube has massive user base and contents, but the older recommendations fail to work on such scale
+
+	- freshness: Many videos are uploaded per second on Youtube. To keep users updated by the latest videos, they want to balance the new content with "well-established videos".
+	- noise: Past user behaviors are hard to predict because of sparsity. Thus, Youtube modeled "noisy implicit feedback signals"(*) to deal with the noise issue. 
 
 Instead of using the traditional matrix factorization, Youtube recommendations used deep neural networks.
 
