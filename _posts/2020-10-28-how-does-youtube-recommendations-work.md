@@ -8,7 +8,7 @@ comments: true
 toc: true
 ---
 
-# Introduction:
+# Introduction
 
 I have to confess that I spend a lot of time on Youtube everyday. Browsing through Youtube homepage, we can often observe that many of the Youtube videos match our interests/needs. If I click on a video and watch for a longtime, Youtube will think that I enjoy it and keep recommend similar videos. If I searched something on the Internet (not just on Youtube), I would see the relevent videos pop up shortly. Some of the videos may not even match to our current interests, but they are the good ones that Youtube thinks what we like. For instance, the video of "**[Plastic Love](https://www.youtube.com/watch?v=3bNITQR4Uso)** (プラスティック・ラブ)" by [Mariya Takeuchi](https://en.wikipedia.org/wiki/Mariya_Takeuchi) was taking over everyone's Youtube page in 2018. Almost immediately, the song brought a popular hit to the [City Pop](https://en.wikipedia.org/wiki/City_pop) music category. My curiosity of the mysterious algorithm behind Youtube was stemed since then. There is a formal name of the "algroithm", which is called *Recommender Systems*. 
 
@@ -65,9 +65,7 @@ Instead of using the traditional matrix factorization, Youtube recommendations u
 
 ---
 
-
-
-**Reference:**
+# Reference
 
 [1] Covington, P., Adams, J., and Sargin, E. "Deep Neural Networks for YouTube Recommendations". In *Proceedings of the 10th ACM Conference on Recommender Systems* (*RecSys '16*). Association for Computing Machinery, New York, NY, USA, 191–198. DOI:https://doi.org/10.1145/2959100.2959190
 
