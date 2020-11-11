@@ -49,16 +49,24 @@ I made an illustration below to help me visualize the overall structure.
 > **Precision and Recall**
 >
 > *Precion* (or *positive predictive value*) is the fraction of relevant instances among the retrieved instances.
+>
+> 
 > $$
 > \textrm{Precion} = \frac{\textrm{true positive}}{\textrm{true positive} + \textrm{false positive} }
 > $$
 > 
 >
 > *Recall* (or *sensitivity*) is the fraction of the total amount of relevence that were retrieved
+>
+> 
 > $$
 > \textrm{Recall} = \frac{\textrm{true positive}}{\textrm{true positive} + \textrm{false negative} }
 > $$
-> <img width = "901" alt = "Precisionrecall" src = "https://user-images.githubusercontent.com/56653390/98752180-a7f3cb80-238f-11eb-86b0-8101236bf809.png" style = "zoom:40%">
+> 
+>
+> <div class=figure>
+>   <p><img width = "901" alt = "Precisionrecall" src = "https://user-images.githubusercontent.com/56653390/98752180-a7f3cb80-238f-11eb-86b0-8101236bf809.png" style = "zoom:40%"><p> Visualizations of Precision and Recall [4]
+> </div>
 >
 > 
 
@@ -66,14 +74,12 @@ I made an illustration below to help me visualize the overall structure.
 
 ## Deep Candidate Generation Model Architecture
 
-
-
-```
 <div class=figure>
   <p><img width="801" alt="YTcandid" src="https://user-images.githubusercontent.com/56653390/98745009-b71f4d00-2380-11eb-9198-b38f3686bc74.png" style = "zoom:80%">
   <p>Deep candidate generation model Architecture (*Covington et al* [1])
 </div>
-```
+
+
 
 ## Deep Ranking Network Architecture
 
@@ -108,4 +114,6 @@ I made an illustration below to help me visualize the overall structure.
 [3] ST. Michel, P. ["Mariya Takeuchi: The pop genius behind 2018's surprise online smash hit from Japan"](https://www.japantimes.co.jp/culture/2018/11/17/music/mariya-takeuchi-pop-genius-behind-2018s-surprise-online-smash-hit-japan/). *The Japan Times*. 2018. 
 
 
+
+[4] [Wiki: Precision and Recall](https://en.wikipedia.org/wiki/Precision_and_recall)
 
